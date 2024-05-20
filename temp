@@ -1,0 +1,89 @@
+<div className="bg-black pt-20">
+  <div
+    className="flex items-center mx-auto w-4/6 justify-between gap-10 mb-40 "
+  >
+    <div className=" relative  h-[600px] w-[600px]">
+      {/*
+      <div
+        className="bg-white rounded-full h-[700px] w-[700px] p-6 translate-x-2 translate-y-4  "
+      />
+      */} {/* absolute top-0 z-10 rounded-full*/}
+      <img
+        src="{pict}"
+        className=" w-full h-full border-l-2 border-b-2 rounded-lg"
+      />
+    </div>
+    <div className="w-max">
+      {/* class="animate-typing overflow-hidden whitespace-nowrap border-r-4
+      border-r-white pr-5 text-5xl text-white font-bold" */}
+      <h1 className="text-[48px]">
+        Hey!<br />
+        I am
+        <span className="text-emerald-200 font-semibold">Noureen Naaz</span>
+        <br />
+      </h1>
+      <p className="text-[32px] ">
+        A<span>{role}<Cursor cursorStyle="|" cursorBlinking="{true}" /></span>
+      </p>
+    </div>
+  </div>
+</div>
+<div className=" bg-black">
+  <div className="mx-auto w-4/6">
+    <div
+      className="bg-[#FFD700] h-[1px] w-[200px] mx-auto shadow-sm text-[#FFD700]"
+    ></div>
+    <h2 className="text-[48px] py-10">My Projects</h2>
+  </div>
+  <div
+    className="snap-x  scrollbar-hide mx-auto flex overflow-x-scroll snap-mandatory w-full gap-12"
+  >
+    <div className="snap-center w-[100px] flex flex-shrink-0 flex-grow-0">
+      {/*
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+      */}
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+    <div className="snap-center w-[400px] flex flex-shrink-0 flex-grow-0">
+      <img
+        src="https://www.bandt.com.au/information/uploads/2015/09/getty3.jpg"
+      />
+    </div>
+  </div>
+</div>

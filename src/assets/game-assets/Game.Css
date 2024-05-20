@@ -1,0 +1,80 @@
+*{
+  /* font-family: 'VT323', monospace; */
+  color: white;
+  overflow-x: hidden;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  width: 0.4rem; /* Adjust this to your desired width */
+  display: none;
+}
+
+.scrollbar-hide {
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+/* Optionally, you can style the track and thumb as per your design requirements */
+.scrollbar-hide::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* You can also style the scrollbar thumb on Firefox */
+.scrollbar-hide::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.animate-bg
+{
+  animation: slide 6s linear infinite;
+  background:  url('./assets/background.jpg') repeat-x;
+  width: 12000px;
+  
+}
+.animate-device{
+  animation: rocket 16s linear infinite;
+  
+}
+@keyframes slide{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}
+@keyframes rocket{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  20%{
+    transform: translate3d(80px, 40px, 10px);
+  }
+  40%{
+    transform: translate3d(250px, -80px, 30px);
+  }
+  60%{
+    transform: translate3d(400px, 70px,77px );
+
+  }
+  70%{
+    transform: translate3d(680px, 20px,7px );
+
+  }
+  80%{
+    transform: translate3d(400px, 70px,77px );
+
+  }
+  90%{
+    transform: translate3d(250px, -80px, 30px);
+  }
+  95%{
+    transform: translate3d(80px, 40px, 10px);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
