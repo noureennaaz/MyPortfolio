@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  -webkit-tap-highlight-color: transparent;
 }
 /* h2{
   font-family: 'Public Sans', sans-serif;
@@ -8,6 +9,7 @@
   /* font-family: 'VT323', monospace; */
   color: white;
   overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
 }
 .scrollbar-hide::-webkit-scrollbar {
   width: 0.4rem; /* Adjust this to your desired width */

@@ -2,7 +2,6 @@
 import "./App.css";
 import Share from "./components/Share"
 import Projects from "./components/Projects";
-import bg from "./assets/orangeCircle.png"
 import orange from "./assets/orange2.png"
 import shape from "./assets/shape.png"
 import pict from "./assets/assetImage-removebg-preview.png";

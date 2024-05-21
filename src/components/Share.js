@@ -79,8 +79,9 @@ export default function Share() {
           <div className="hidden">Instagram</div>
         </li>
         <li className="icon-content overflow-visible">
-          <a
-            className="cursor-pointer"
+          <a 
+            href="#"
+            className="cursor-pointer  "
             onClick={() => {
               navigator.clipboard.writeText("noureen_naaz") 
               element.classList.remove("hidden")
