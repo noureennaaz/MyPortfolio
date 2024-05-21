@@ -53,7 +53,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img src={netflixClone} className="object-cover h-full w-full " />
+            <img src={netflixClone} className="object-cover h-full w-full " alt=""/>
           </div>
         </div>
         <div data-aos="fade-up"
@@ -89,6 +89,7 @@ const Projects = () => {
             <img
               src={passwGen}
               className=" object-cover h-full w-full opacity-100"
+              alt=""
             />
           </div>
         </div>
@@ -120,7 +121,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img src={blogApp} className=" object-cover h-full w-full" />
+            <img src={blogApp} className=" object-cover h-full w-full" alt=""/>
           </div>
         </div>
         <div data-aos="fade-up" className="z-50 group rounded-lg shadow-yellow-600 border-slate-500 border box-border hover:scale-105 shadow-sm transition-all">
@@ -148,7 +149,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img src={chat} className=" object-cover h-full w-full" />
+            <img src={chat} className=" object-cover h-full w-full" alt="" />
           </div>
         </div>
         
@@ -179,7 +180,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img src={weather} className=" object-cover h-full w-full" />
+            <img src={weather} className=" object-cover h-full w-full" alt=""/>
           </div>
         </div>
         <div
@@ -213,6 +214,7 @@ const Projects = () => {
             <img
               src={eventManagement}
               className=" object-cover h-full w-full"
+              alt=""
             />
           </div>
         </div>
@@ -244,7 +246,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img src={exploading} className=" object-cover h-full w-full" />
+            <img src={exploading} className=" object-cover h-full w-full" alt=""/>
           </div>
         </div>
       </div>

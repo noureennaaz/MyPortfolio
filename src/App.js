@@ -24,8 +24,8 @@ function App() {
   });
   return (
     <div className="min-h-screen relative text-white bg-black">
-    <img src={orange} className="absolute top-0 right-0 opacity-70 h-72 z-0 rotate-180"/>
-    <img src={shape} className="absolute left-60 opacity-70 top-60 -rotate-180 lg:h-[400px] md:h-[300px] z-0 max-md:hidden max-lg:left-40 "/>
+    <img src={orange} className="absolute top-0 right-0 opacity-70 h-72 z-0 rotate-180" alt=""/>
+    <img src={shape} className="absolute left-60 opacity-70 top-60 -rotate-180 lg:h-[400px] md:h-[300px] z-0 max-md:hidden max-lg:left-40 " alt=""/>
     
       
       <div className="pt-20 mt-20">
@@ -35,6 +35,7 @@ function App() {
             <img
               src={pict}
               className="max-md:hidden relative w-full h-full object-cover border-rb-2 transition-shadow  z-50 rounded-[150px]"
+              alt="User"
             />
           </div>
           <div className="w-max flex flex-col gap-20 ">
@@ -67,8 +68,8 @@ function App() {
 
       <div className=" bg-black w-full relative cursor-default">
         <Projects/>
-        <img src={pc} className="absolute left-[50px] top-[500px] opacity-50 filter h-[500px] -z-20 "/>
-        <img src={laptop} className="absolute right-[50px] top-[100px] opacity-50 filter h-[300px] -z-20 "/>
+        <img src={pc} className="absolute left-[50px] top-[500px] opacity-50 filter h-[500px] -z-20 " alt=""/>
+        <img src={laptop} className="absolute right-[50px] top-[100px] opacity-50 filter h-[300px] -z-20 " alt=""/>
        
       </div>
       
