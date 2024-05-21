@@ -80,9 +80,10 @@ export default function Share() {
         </li>
         <li className="icon-content overflow-visible">
           <a 
-            href="#"
-            className="cursor-pointer  "
-            onClick={() => {
+            href="https://support.discord.com/hc/en-us/community/posts/360056220432-Login"
+            className="cursor-pointer"
+            onClick={(e) => {
+              e.preventDefault()
               navigator.clipboard.writeText("noureen_naaz") 
               element.classList.remove("hidden")
               setTimeout( ()=>{
