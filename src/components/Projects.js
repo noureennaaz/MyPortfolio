@@ -7,21 +7,26 @@ import exploading from "../assets/projects/exploding-kitten.png";
 import eventManagement from "../assets/projects/event-manage.png";
 import { FiGithub } from "react-icons/fi";
 import { IoMdOpen } from "react-icons/io";
+import AOS from "aos"
+import 'aos/dist/aos.css';
 
 import {Link} from "react-router-dom"
 
 
+
 const Projects = () => {
+
+  AOS.init();
  
   return (
-    <div>
-      <div className="mx-auto w-4/6">
+    <div className="z-50">
+      <div className="mx-auto w-4/6 z-50">
         <div className="bg-[#FFD700] h-[1px] w-[200px] mx-auto shadow-sm text-[#FFD700]"></div>
         <h2 className="text-[48px] py-10">My Projects</h2>
       </div>
-      <div className="flex-wrap scrollbar-hide mx-auto flex overflow-x-scroll w-full gap-12 p-10 justify-center items-center ">
+      <div className="mb-32 max-h-fit overflow-y-hidden flex-wrap scrollbar-hide mx-auto flex w-full gap-12 p-10 justify-center items-center ">
         <div
-          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all hover:scale-105 group"
+          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all hover:scale-105 group" data-aos="fade-up"
         >
           <div className=" relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
@@ -51,7 +56,7 @@ const Projects = () => {
             <img src={netflixClone} className="object-cover h-full w-full " />
           </div>
         </div>
-        <div
+        <div data-aos="fade-up"
           className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all hover:scale-105 group"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
@@ -87,9 +92,8 @@ const Projects = () => {
             />
           </div>
         </div>
-        <div
-          href="https://theblogapp.netlify.app/"
-          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm  transition-all group"
+        <div data-aos="fade-up"
+          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm hover:scale-105 transition-all group"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
@@ -119,7 +123,7 @@ const Projects = () => {
             <img src={blogApp} className=" object-cover h-full w-full" />
           </div>
         </div>
-        <div className="z-50 group rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all">
+        <div data-aos="fade-up" className="z-50 group rounded-lg shadow-yellow-600 border-slate-500 border box-border hover:scale-105 shadow-sm transition-all">
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
               <div className="p-10">
@@ -148,8 +152,8 @@ const Projects = () => {
           </div>
         </div>
         
-        <div
-          className="group z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
+        <div data-aos="fade-up"
+          className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
@@ -179,8 +183,8 @@ const Projects = () => {
           </div>
         </div>
         <div
-          href="24carrotsClone"
-          className="group z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
+          data-aos="fade-up"
+          className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
@@ -213,8 +217,8 @@ const Projects = () => {
           </div>
         </div>
         <div
-          href="exploding-cats"
-          className="group z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm"
+          data-aos="fade-up"
+          className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">

@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import Share from "./components/Share"
 import Projects from "./components/Projects";
@@ -8,9 +8,14 @@ import shape from "./assets/shape.png"
 import pict from "./assets/assetImage-removebg-preview.png";
 import pc from "./assets/pc.png"
 import laptop from "./assets/laptop.webp"
-import rocket from "./assets/Long-blue-flame-rocket.png";
+
+import "aos/dist/aos.css"
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+
+
 function App() {
+
+
   const [role] = useTypewriter({
     words: [" Developer", " Student", "n Engineer", " Learner"],
     loop: {},
@@ -20,7 +25,7 @@ function App() {
   return (
     <div className="min-h-screen relative text-white bg-black">
     <img src={orange} className="absolute top-0 right-0 opacity-70 h-72 z-0 rotate-180"/>
-    <img src={shape} className="absolute left-60 opacity-70 top-60 -rotate-180 lg:h-[400px] md:h-[300px] z-20 max-md:hidden max-lg:left-40 "/>
+    <img src={shape} className="absolute left-60 opacity-70 top-60 -rotate-180 lg:h-[400px] md:h-[300px] z-0 max-md:hidden max-lg:left-40 "/>
     
       
       <div className="pt-20 mt-20">
@@ -62,8 +67,8 @@ function App() {
 
       <div className=" bg-black w-full relative cursor-default">
         <Projects/>
-        <img src={pc} className="absolute left-[50px] top-[500px] opacity-50 filter h-[500px] z-0 "/>
-        <img src={laptop} className="absolute right-[50px] top-[100px] opacity-50 filter h-[300px] z-0 "/>
+        <img src={pc} className="absolute left-[50px] top-[500px] opacity-50 filter h-[500px] -z-20 "/>
+        <img src={laptop} className="absolute right-[50px] top-[100px] opacity-50 filter h-[300px] -z-20 "/>
        
       </div>
       
