@@ -1,0 +1,15 @@
+/* .playpen-sans-<uniquifier> {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+  .playpen-sans-700 {
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .shadow-text{
+    text-shadow: rgba(33, 33, 29, 0.488) 3px 0 10px;
+  }

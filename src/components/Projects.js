@@ -8,6 +8,7 @@ import eventManagement from "../assets/projects/event-manage.png";
 import { FiGithub } from "react-icons/fi";
 import { IoMdOpen } from "react-icons/io";
 import AOS from "aos"
+import "./text.css"
 import 'aos/dist/aos.css';
 
 import {Link} from "react-router-dom"
@@ -19,10 +20,10 @@ const Projects = () => {
   AOS.init();
  
   return (
-    <div className="z-50">
-      <div className="mx-auto w-4/6 z-50">
-        <div className="bg-[#FFD700] h-[1px] w-[200px] mx-auto shadow-sm text-[#FFD700]"></div>
-        <h2 className="text-[48px] py-10">My Projects</h2>
+    <div className="z-50 playpen-sans-700 ">
+      <div className="mx-auto w-4/6 z-50 drop-shadow">
+        {/* <div className="bg-[#FFD700] h-[1px] w-[200px] mx-auto shadow-sm text-[#FFD700]"></div> */}
+        <h2 className="text-[48px] text-indigo-300 py-10" >My Projects</h2>
       </div>
       <div className="mb-32 max-h-fit overflow-y-hidden flex-wrap scrollbar-hide mx-auto flex w-full gap-12 p-10 justify-center items-center ">
         <div

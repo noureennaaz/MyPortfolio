@@ -1,10 +1,10 @@
 export default function Share() {
   const element = document.querySelector("#info")
   return (
-    <div className="w-full p-30 ">
+    <div className="w-full p-30 z-50 group">
     
-    <p>Let's Connect</p>
-    <div className="h-[2px] mt-5 mb-5 w-40  bg-gradient-to-r from-pink-500 to-yellow-500 "></div>
+    <p className="">Let's Connect</p>
+    <div className="h-[2px] mt-3 mb-3 scale-0 transition duration-500 group-hover:scale-100 w-40 bg-gradient-to-r from-pink-500 to-yellow-500 "></div>
       <ul className="example-2 -translate-x-1 flex flex-wrap max-md:justify-center max-md:items-center relative">
         <li className="icon-content">
           <a

@@ -7,6 +7,9 @@ import shape from "./assets/shape.png"
 import pict from "./assets/assetImage-removebg-preview.png";
 import pc from "./assets/pc.png"
 import laptop from "./assets/laptop.webp"
+import Spline from '@splinetool/react-spline';
+import "./components/text.css"
+import waves from "./assets/wave1.svg"
 
 import "aos/dist/aos.css"
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -22,30 +25,30 @@ function App() {
     deleteSpeed: 20,
   });
   return (
-    <div className="min-h-screen relative text-white bg-black">
+    <div className="min-h-screen relative text-white ">
     <img src={orange} className="absolute top-0 right-0 opacity-70 h-72 z-0 rotate-180" alt=""/>
-    <img src={shape} className="absolute left-60 opacity-70 top-60 -rotate-180 lg:h-[400px] md:h-[300px] z-0 max-md:hidden max-lg:left-40 " alt=""/>
-    
+    {/* <img src={shape} className="absolute left-60 opacity-70 top-60 -rotate-180 lg:h-[400px] md:h-[300px] z-0 max-md:hidden max-lg:left-40 " alt=""/> */}
+   
+ 
+
       
-      <div className="pt-20 mt-20">
-        <div className="flex items-center max-md:flex-wrap-reverse mx-auto w-4/6 justify-between gap-10 lg:mb-40 ">
-          <div className=" relative overflow-visible mt-5">
+      <div className="py-20  relative bg-[#B3AFE9] overflow-hidden lg:h-[78vh]">
+      <Spline scene="https://prod.spline.design/96kt3R9OLanMMHDs/scene.splinecode" className="w-screen absolute sm-left-0 lg:-left-24 z-0 sm:-top-40  lg:h-[78vh] overflow-hidden" />
+        <div className="flex items-center max-md:flex-wrap-reverse mx-auto w-4/6 justify-between gap-10 lg:mb-40  ">
+          <div className=" relative mt-5">
             
-            <img
-              src={pict}
-              className="max-md:hidden relative w-full h-full object-cover border-rb-2 transition-shadow  z-50 rounded-[150px]"
-              alt="User"
-            />
+    
           </div>
-          <div className="w-max flex flex-col gap-20 ">
+          <div className="w-max flex flex-col gap-20 shadow-text">
             
-            <div className="lg:overflow-visible">
-            <h1 className="text-[48px] h-36 max-md:h-fit max-md:overflow-hidden lg:overflow-visible">
+            <div className="lg:overflow-visible z-50 pt-20 ">
+            <h1 className="text-[48px] playpen-sans-700 h-36 max-md:h-fit max-md:overflow-hidden lg:overflow-visible">
               Hey!
               <br />I am
               <span className="text-emerald-200 font-semibold">
                 {" "}
-                Noureen Naaz &nbsp;
+                Noureen Naaz&nbsp;
+                 
               </span>
               <br />
             </h1>
@@ -64,8 +67,8 @@ function App() {
           </div>
         </div>
       </div>
-
-      <div className=" bg-black w-full relative cursor-default">
+      <img src={waves} alt="" className="w-screen absolute -z-20 -translate-y-32"/>
+      <div className="mt-20  w-full relative cursor-default">
         <Projects/>
         <img src={pc} className="absolute left-[50px] top-[500px] opacity-50 filter h-[500px] -z-20 " alt=""/>
         <img src={laptop} className="absolute right-[50px] top-[100px] opacity-50 filter h-[300px] -z-20 " alt=""/>
