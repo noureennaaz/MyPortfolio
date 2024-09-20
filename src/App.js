@@ -2,9 +2,6 @@
 import "./App.css";
 import Share from "./components/Share"
 import Projects from "./components/Projects";
-import orange from "./assets/orange2.png"
-import shape from "./assets/shape.png"
-import pict from "./assets/assetImage-removebg-preview.png";
 import pc from "./assets/pc.png"
 import laptop from "./assets/laptop.webp"
 import Spline from '@splinetool/react-spline';
