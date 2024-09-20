@@ -29,14 +29,14 @@ function App() {
  
 
       
-      <div className="lg:pt-20 md:pt-20 pt-12  relative bg-[#B3AFE9] lg:h-[78vh] md:h-[90vh] ">
+      <div className="lg:pt-20 md:pt-20 pt-12  relative bg-[#B3AFE9] lg:h-[78vh] md:h-[90vh] overflow-hidden ">
       <Spline scene="https://prod.spline.design/96kt3R9OLanMMHDs/scene.splinecode" className="w-screen absolute lg:-left-48 md:-left-40 sm:-left-48 z-0 lg:h-[78vh] h-[90vh] sm:translate-y-0 translate-y-20 overflow-hidden sm:mt-0 -mt-32" />
         <div className="flex items-center max-md:flex-wrap-reverse mx-auto w-4/6 justify-between gap-10 lg:mb-40  ">
           <div className=" relative mt-5">
             
     
           </div>
-          <div className="w-max flex flex-col gap-20 shadow-text">
+          <div className="w-max flex flex-col gap-10 shadow-text">
             
             <div className="lg:overflow-visible z-50 lg:pt-20 ">
             <h1 className="lg:text-[48px] md:text-[30px] leading-[40px]  lg:leading-[66px] text-3xl z-50  playpen-sans-700 h-36 max-md:h-fit max-md:overflow-hidden lg:overflow-visible">
@@ -65,7 +65,7 @@ function App() {
         </div>
       </div>
       {/* <div className="relative h-80"> */}
-        <img src={waves} alt="" className="w-screen absolute -z-50"/>
+        <img src={waves} alt="" className="w-screen min-w-[600px] -translate-y-16 sm:translate-y-0 absolute z-50"/>
       {/* </div> */}
       <div className="lg:mt-60 mt-40  w-full relative cursor-default">
         <Projects/>

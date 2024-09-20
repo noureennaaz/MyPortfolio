@@ -1,7 +1,7 @@
 export default function Share() {
   const element = document.querySelector("#info")
   return (
-    <div className="w-full sm:mt-0 mt-[300px] min-h-fit pt-0 p-30 z-50 group">
+    <div className="w-full sm:mt-0 lg:mt-0 md:mt-0 mt-[250px] min-h-fit pt-0 z-[999] overflow-visible group">
     
     <p>Let's Connect</p>
     <div className="h-[2px] mt-3 mb-3 scale-0 transition duration-500 group-hover:scale-100 w-40 bg-gradient-to-r from-pink-500 to-yellow-500 "></div>
