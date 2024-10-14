@@ -16,7 +16,6 @@ import Exp from "./components/Experience";
 
 function App() {
 
-
   const [role] = useTypewriter({
     words: [" Developer", " Student", "n Engineer", " Learner"],
     loop: {},

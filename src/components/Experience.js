@@ -16,7 +16,7 @@ const Exp = () => {
         </div>
         <div className=" rounded-3xl sm:w-[700px] max-h-[50vh] border-4 border-b-slate-400 min-w-[300px] z-[80]  box-border overflow-visible border-r-slate-300 border-l-slate-200 border-t-slate-200 flex items-center justify-center gap-5 flex-wrap lg:gap-20 w-[80%] mt-32 min-h-fit h-[300px] p-7">
           <div className="h-[100px] w-[100px]">
-            <img src="https://pbs.twimg.com/profile_images/1711275061414699008/7RFqZYlp_400x400.png" className="w-full h-full object-cover" alt= ""/>
+            <img  alt= "" src="https://pbs.twimg.com/profile_images/1711275061414699008/7RFqZYlp_400x400.png" className="w-full h-full object-cover" />
           </div>
           <div className="flex flex-col gap-3 sm:w-[400px]">
           <div className="text-xl  text-slate-700 sm:w-[200px] playpen-sans-700 overflow-visible">
