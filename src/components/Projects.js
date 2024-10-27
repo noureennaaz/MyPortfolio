@@ -19,24 +19,56 @@ const Projects = () => {
         <h2 className="text-[48px] text-indigo-300 py-10" >My Projects</h2>
       </div>
       <div className="md:mb-32 max-h-fit overflow-y-hidden flex-wrap scrollbar-hide mx-auto flex w-full gap-12 p-10 justify-center items-center ">
-        <div
-          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border ease-in-out shadow-sm transition-transform hover:scale-105 group" data-aos="fade-up"
+      <div 
+          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm hover:scale-105 transition-all group"
         >
-          <div className=" relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
-            <div className="h-full w-full transition-opacity lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end">
+          <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
+            <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
+              <div className="p-10">
+                <div>
+                  <h4 className="text-xl">Sync Write</h4>
+                  <p>Enables real-time text and code collaborations</p>
+                </div>
+                <div className="flex w-full justify-between pt-10 overflow-visible">
+                  <Link to="https://github.com/noureennaaz/BlogApp" className='overflow-visible' >
+                      <FiGithub
+                        size={25}
+                        className="hover:scale-125 transition-transform ease-in-out"
+                      />
+                    </Link>
+                    <Link to="https://theblogapp.netlify.app/" className='overflow-visible'>
+                      <IoMdOpen
+                        size={25}
+                        className="hover:scale-125  transition-transform ease-in-out"
+                        
+                      />
+                    </Link>
+                  
+                </div>
+              </div>
+            </div>
+            <img src="https://res.cloudinary.com/dihp6gdpi/image/upload/Portfolio/projects/Screenshot_513_wbin1r.png" className=" object-cover h-full w-full opacity-100" alt=""/>
+          </div>
+        </div>
+        <div
+          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border transition-transform duration-300 hover:scale-[1.02] group ease-in-out"
+        >
+          
+          <div className="relative max-w-[400px] h-[250px] eas flex flex-shrink-0 transition-transform ease-in-out duration-300">
+            <div className="h-full w-full bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 opacity-0 transition-opacity duration-500 group-hover:opacity-100 ease-in-out delay-150 flex items-end">
               <div className="p-10">
                 <div>
                   <h4 className="text-xl">Netflix Clone</h4>
                   <p>A clone of homepage of Netflix site </p>
                 </div>
                 <div className="flex w-full justify-between pt-10 overflow-visible">
-                  <Link to="https://github.com/noureennaaz/NetflixClone" className='overflow-visible'>
+                  <Link to="https://github.com/noureennaaz/NetflixClone" className='hover:scale-105 transition-transform ease-in-out overflow-visible duration-200'>
                     <FiGithub
                       size={25}
                       className="hover:scale-125 transition-transform ease-in-out"
                     />
                   </Link>
-                  <Link to="https://noureennaaz.github.io/NetflixClone/" className='overflow-visible'>
+                  <Link to="https://noureennaaz.github.io/NetflixClone/" className='hover:scale-105 transition-transform duration-150 overflow-visible'>
                     <IoMdOpen
                       size={25}
                       className="hover:scale-125 transition-transform ease-in-out"
@@ -47,47 +79,11 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094737/Portfolio/projects/netflix_eygaxo.png' className="object-cover h-full w-full " alt=""/>
+            <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094737/Portfolio/projects/netflix_eygaxo.png' className="object-cover h-full w-full transition-opacity duration-500" alt=""/>
           </div>
         </div>
-        <div data-aos="fade-up"
-          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all hover:scale-105 group"
-        >
-          <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
-            <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-100 group-hover:opacity-100 flex items-end transition-all">
-              <div className="p-10">
-                <div>
-                  <h4 className="text-xl">Password Generator</h4>
-                  <p>A basic Javascript app that generates random passwords</p>
-                </div>
-                <div className="flex w-full justify-between pt-10 overflow-visible">
-                
-                  <Link to="https://github.com/noureennaaz/PasswordGenerator" className='overflow-visible'>
-                    <FiGithub
-                      size={25}
-                      className="hover:scale-125  transition-transform ease-in-out"
-                    />
-                  </Link>
-                  <Link to="https://noureennaaz.github.io/PasswordGenerator/" className='overflow-visible' >
-                    <IoMdOpen
-                      size={25}
-                      className="hover:scale-125 transition-transform ease-in-out"
-                      
-                    />
-                  </Link>
-                  
-                  
-                </div>
-              </div>
-            </div>
-            <img
-              src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094738/Portfolio/projects/pass-gen_opnv55.png'
-              className=" object-cover h-full w-full opacity-100"
-              alt=""
-            />
-          </div>
-        </div>
-        <div data-aos="fade-up"
+        
+        <div 
           className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm hover:scale-105 transition-all group"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
@@ -118,7 +114,7 @@ const Projects = () => {
             <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094733/Portfolio/projects/blog-app_dumvgh.png' className=" object-cover h-full w-full" alt=""/>
           </div>
         </div>
-        <div data-aos="fade-up" className="z-50 group rounded-lg shadow-yellow-600 border-slate-500 border box-border hover:scale-105 shadow-sm transition-all">
+        <div className="z-50 group rounded-lg shadow-yellow-600 border-slate-500 border box-border hover:scale-105 shadow-sm transition-all">
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
             <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
               <div className="p-10">
@@ -146,39 +142,8 @@ const Projects = () => {
             <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094736/Portfolio/projects/tutorBot_xwbxmi.jpg' className=" object-cover h-full w-full" alt="" />
           </div>
         </div>
-        
-        <div data-aos="fade-up"
-          className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
-        >
-          <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
-            <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
-              <div className="p-10">
-                <div>
-                  <h4 className="text-xl">WeatherApp</h4>
-                  <p>A basic javascript app using Open Weather API</p>
-                </div>
-                <div className="flex w-full justify-between pt-10 overflow-visible">
-                <Link to="https://github.com/noureennaaz/WeatherApp" className='overflow-visible'>
-                    <FiGithub
-                      size={25}
-                      className="hover:scale-125 transition-all"
-                    />
-                  </Link>
-                  <Link to="https://noureennaaz.github.io/WeatherApp/" className='overflow-visible' >
-                    <IoMdOpen
-                      size={25}
-                      className="hover:scale-125 transition-all"
-                      
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094736/Portfolio/projects/weather_fsai0f.png' className=" object-cover h-full w-full" alt=""/>
-          </div>
-        </div>
+
         <div
-          data-aos="fade-up"
           className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
@@ -213,7 +178,6 @@ const Projects = () => {
           </div>
         </div>
         <div
-          data-aos="fade-up"
           className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm"
         >
           <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
@@ -241,6 +205,74 @@ const Projects = () => {
               </div>
             </div>
             <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094734/Portfolio/projects/exploding-kitten_zlaqz4.png' className=" object-cover h-full w-full" alt=""/>
+          </div>
+        </div>
+        <div 
+          className="group hover:scale-105 z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all"
+        >
+          <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
+            <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-90 group-hover:opacity-100 flex items-end transition-all">
+              <div className="p-10">
+                <div>
+                  <h4 className="text-xl">WeatherApp</h4>
+                  <p>A basic javascript app using Open Weather API</p>
+                </div>
+                <div className="flex w-full justify-between pt-10 overflow-visible">
+                <Link to="https://github.com/noureennaaz/WeatherApp" className='overflow-visible'>
+                    <FiGithub
+                      size={25}
+                      className="hover:scale-125 transition-all"
+                    />
+                  </Link>
+                  <Link to="https://noureennaaz.github.io/WeatherApp/" className='overflow-visible' >
+                    <IoMdOpen
+                      size={25}
+                      className="hover:scale-125 transition-all"
+                      
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <img src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094736/Portfolio/projects/weather_fsai0f.png' className=" object-cover h-full w-full" alt=""/>
+          </div>
+        </div>
+
+        <div 
+          className="z-50 rounded-lg shadow-yellow-600 border-slate-500 border box-border shadow-sm transition-all hover:scale-105 group"
+        >
+          <div className="relative max-w-[400px] h-[250px] flex flex-shrink-0 flex-grow-0 transition-all">
+            <div className="h-full w-full lg:opacity-0 bg-[#00000062] absolute top-0 right-0 backdrop-blur-[4px] backdrop-brightness-100 group-hover:opacity-100 flex items-end transition-all">
+              <div className="p-10">
+                <div>
+                  <h4 className="text-xl">Password Generator</h4>
+                  <p>A basic Javascript app that generates random passwords</p>
+                </div>
+                <div className="flex w-full justify-between pt-10 overflow-visible">
+                
+                  <Link to="https://github.com/noureennaaz/PasswordGenerator" className='overflow-visible'>
+                    <FiGithub
+                      size={25}
+                      className="hover:scale-125  transition-transform ease-in-out"
+                    />
+                  </Link>
+                  <Link to="https://noureennaaz.github.io/PasswordGenerator/" className='overflow-visible' >
+                    <IoMdOpen
+                      size={25}
+                      className="hover:scale-125 transition-transform ease-in-out"
+                      
+                    />
+                  </Link>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <img
+              src='https://res.cloudinary.com/dihp6gdpi/image/upload/v1727094738/Portfolio/projects/pass-gen_opnv55.png'
+              className=" object-cover h-full w-full opacity-100"
+              alt=""
+            />
           </div>
         </div>
       </div>

@@ -88,7 +88,7 @@ export default function Share() {
               element.classList.remove("hidden")
               setTimeout( ()=>{
                 element.classList.add("hidden")
-              }, 100)
+              }, 1000)
               }
               }
             aria-label="Discord"
